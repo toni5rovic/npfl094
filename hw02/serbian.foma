@@ -1,0 +1,62 @@
+# Vowels
+define Vowel [ a | e | i | o | u ];
+
+# Consonants 
+define Consonant [ b | v | g | d | đ | ž | z | j | k | l | lj | m | n | nj | p | r | s | t | ć | f | h | c | č | dž | š];
+
+################################################################
+# Palatalization
+# Velar -> 
+# Examples:
+#   - vojnik `soldier` (N+Nom+Sg)   ->    vojniče  (N+Voc+Sg)
+#   - vući   `to pull` (V+Inf)      ->    vučem    (V+Present+1P+Sg)
+#        ----------------------> vuk-em ----^
+
+define Palatalization k -> č, g -> [d ž], h -> š || _ "^" e;
+
+################################################################
+# Sibilantization
+# Velar -> Dental
+# Examples:
+#   - ruka  `arm`     (N+Nom+Sg)   ->    ruci   (N+Dat+Sg)
+
+define Sibilantization k -> c, g -> z, h -> s || _ "^" i;
+
+################################################################
+# Iotation
+# 
+# Examples:
+# Happens in:
+#   - Comparative adjectives
+#   - Verbs in present tense
+#   - Adverbs
+#   - Verb in imperfect tense
+#   - Feminine nouns in instrumental case
+
+define Iotation [z "^" j] -> ž       ,, 
+                [s "^" j] -> š       ,,
+                [d "^" j] -> đ       ,, 
+                [t "^" j] -> ć       ,, 
+                [b "^" j] -> [b l j] ,, 
+                [p "^" j] -> [p l j] ,,
+                [v "^" j] -> [v l j] ;
+
+################################################################
+# Fleeting A
+
+define FleetingA a -> 0;
+
+################################################################
+# L to O
+# L-vocalization: https://en.wikipedia.org/wiki/L-vocalization#South_Slavic_languages
+
+define LVocalization l -> o || _ "^" ;
+
+################################################################
+define Cleanup "^" -> 0 ;
+
+################################################################
+read lexc serbian.lexc
+define Lexicon;
+
+regex Lexicon .o. Iotation .o. LVocalization .o. Cleanup ;

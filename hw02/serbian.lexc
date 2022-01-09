@@ -1,0 +1,168 @@
+Multichar_Symbols +Adj +Masc +Fem +Neut +Sg +Pl +Nom +Gen +Dat +Acc +Voc +Loc +Ins Sup+ +Pos +Comp @P.SUP.ON@ @D.SUP@
+
+##############################################
+LEXICON Root
+
+Adj;
+AdjSup;
+
+##############################################
+LEXICON AdjSup
+
+@P.SUP.ON@Sup+:@P.SUP.ON@naj Adj;
+
+##############################################
+LEXICON Adj
+
+lep:lep             AdjIndefiniteComparative_SH;
+lepi:lep            AdjDefiniteComparative_SH;
+
+beo:bel             AdjIndefiniteComparative_J;
+beli:bel            AdjDefiniteComparative_J;
+
+lak:lak             AdjIndefiniteComparative_SH;
+laki:lak            AdjDefiniteComparative_SH;
+
+crven:crven         AdjIndefiniteComparative_IJ;
+crveni:crven        AdjDefiniteComparative_IJ;
+
+mlad:mlad           AdjIndefiniteComparative_J;
+mladi:mlad          AdjDefiniteComparative_J;
+
+nemački:nemačk      AdjDefinite;
+češki:češk          AdjDefinite;
+srpski:srpsk        AdjDefinite;
+malteški:maltešk    AdjDefinite;
+sovjetski:sovjetsk  AdjDefinite;
+
+##############################################
+LEXICON AdjDefiniteComparative_IJ
+
+@D.SUP@+Pos:@D.SUP@     AdjDefinite;
++Comp:^ij               AdjDefinite;
+
+##############################################
+LEXICON AdjDefiniteComparative_J
+
+@D.SUP@+Pos:@D.SUP@     AdjDefinite;
++Comp:^j                AdjDefinite;
+
+##############################################
+LEXICON AdjDefiniteComparative_SH
+
+@D.SUP@+Pos:@D.SUP@     AdjDefinite;
++Comp:^š                AdjDefinite;
+
+##############################################
+LEXICON AdjIndefiniteComparative_IJ
+
+@D.SUP@+Pos:@D.SUP@     AdjIndefinite;
++Comp:^ij               AdjIndefinite;
+
+##############################################
+LEXICON AdjIndefiniteComparative_J
+
+@D.SUP@+Pos:@D.SUP@     AdjIndefinite;
++Comp:^j                AdjIndefinite;
+
+##############################################
+LEXICON AdjIndefiniteComparative_SH
+
+@D.SUP@+Pos:@D.SUP@     AdjIndefinite;
++Comp:^š                AdjIndefinite;
+
+##############################################
+LEXICON AdjIndefinite
+
++Adj+Masc+Sg+Nom:^   #;
++Adj+Masc+Sg+Gen:^a  #;
++Adj+Masc+Sg+Dat:^u  #;
++Adj+Masc+Sg+Acc:^   #;
++Adj+Masc+Sg+Voc:^i  #;
++Adj+Masc+Sg+Ins:^im #;
++Adj+Masc+Sg+Loc:^u  #;
++Adj+Masc+Pl+Nom:^i  #;
++Adj+Masc+Pl+Gen:^ih #;
++Adj+Masc+Pl+Dat:^im #;
++Adj+Masc+Pl+Acc:^e  #;
++Adj+Masc+Pl+Voc:^i  #;
++Adj+Masc+Pl+Ins:^im #;
++Adj+Masc+Pl+Loc:^im #;
+
++Adj+Fem+Sg+Nom:^o  #;
++Adj+Fem+Sg+Gen:^e  #;
++Adj+Fem+Sg+Dat:^oj #;
++Adj+Fem+Sg+Acc:^u  #;
++Adj+Fem+Sg+Voc:^a  #;
++Adj+Fem+Sg+Ins:^om #;
++Adj+Fem+Sg+Loc:^oj #;
++Adj+Fem+Pl+Nom:^e  #;
++Adj+Fem+Pl+Gen:^ih #;
++Adj+Fem+Pl+Dat:^im #;
++Adj+Fem+Pl+Acc:^e  #;
++Adj+Fem+Pl+Voc:^e  #;
++Adj+Fem+Pl+Ins:^im #;
++Adj+Fem+Pl+Loc:^im #;
+
++Adj+Neut+Sg+Nom:^o  #;
++Adj+Neut+Sg+Gen:^a  #;
++Adj+Neut+Sg+Dat:^u  #;
++Adj+Neut+Sg+Acc:^o  #;
++Adj+Neut+Sg+Voc:^o  #;
++Adj+Neut+Sg+Ins:^im #;
++Adj+Neut+Sg+Loc:^u  #;
++Adj+Neut+Pl+Nom:^a  #;
++Adj+Neut+Pl+Gen:^ih #;
++Adj+Neut+Pl+Dat:^im #;
++Adj+Neut+Pl+Acc:^a  #;
++Adj+Neut+Pl+Voc:^a  #;
++Adj+Neut+Pl+Ins:^im #;
++Adj+Neut+Pl+Loc:^im #;
+
+##############################################
+LEXICON AdjDefinite
+
++Adj+Masc+Sg+Nom:^i  #;
++Adj+Masc+Sg+Gen:^og #;
++Adj+Masc+Sg+Dat:^om #;
++Adj+Masc+Sg+Acc:^i  #;
++Adj+Masc+Sg+Voc:^i  #;
++Adj+Masc+Sg+Ins:^im #;
++Adj+Masc+Sg+Loc:^om #;
++Adj+Masc+Pl+Nom:^i  #;
++Adj+Masc+Pl+Gen:^ih #;
++Adj+Masc+Pl+Dat:^im #;
++Adj+Masc+Pl+Acc:^e  #;
++Adj+Masc+Pl+Voc:^i  #;
++Adj+Masc+Pl+Ins:^im #;
++Adj+Masc+Pl+Loc:^im #;
+
++Adj+Fem+Sg+Nom:^a  #;
++Adj+Fem+Sg+Gen:^e  #;
++Adj+Fem+Sg+Dat:^oj #;
++Adj+Fem+Sg+Acc:^u  #;
++Adj+Fem+Sg+Voc:^a  #;
++Adj+Fem+Sg+Ins:^om #;
++Adj+Fem+Sg+Loc:^oj #;
++Adj+Fem+Pl+Nom:^e  #;
++Adj+Fem+Pl+Gen:^ih #;
++Adj+Fem+Pl+Dat:^im #;
++Adj+Fem+Pl+Acc:^e  #;
++Adj+Fem+Pl+Voc:^e  #;
++Adj+Fem+Pl+Ins:^im #;
++Adj+Fem+Pl+Loc:^im #;
+
++Adj+Neut+Sg+Nom:^o  #;
++Adj+Neut+Sg+Gen:^og #;
++Adj+Neut+Sg+Dat:^om #;
++Adj+Neut+Sg+Acc:^o  #;
++Adj+Neut+Sg+Voc:^o  #;
++Adj+Neut+Sg+Ins:^im #;
++Adj+Neut+Sg+Loc:^om #;
++Adj+Neut+Pl+Nom:^a  #;
++Adj+Neut+Pl+Gen:^ih #;
++Adj+Neut+Pl+Dat:^im #;
++Adj+Neut+Pl+Acc:^a  #;
++Adj+Neut+Pl+Voc:^a  #;
++Adj+Neut+Pl+Ins:^im #;
++Adj+Neut+Pl+Loc:^im #;
