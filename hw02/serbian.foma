@@ -50,7 +50,7 @@ define FleetingA a -> 0;
 # L to O
 # L-vocalization: https://en.wikipedia.org/wiki/L-vocalization#South_Slavic_languages
 
-define LVocalization l -> o || _ "^" ;
+define LVocalization l -> o || _ "^" .#. ;
 
 ################################################################
 define Cleanup "^" -> 0 ;
