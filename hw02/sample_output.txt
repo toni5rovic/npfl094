@@ -1,0 +1,33 @@
+lep	lep+Pos+Adj+Masc+Sg+Acc
+lep	lep+Pos+Adj+Masc+Sg+Nom
+
+crveni	crveni+Pos+Adj+Masc+Sg+Acc
+crveni	crveni+Pos+Adj+Masc+Sg+Nom
+crveni	crveni+Pos+Adj+Masc+Sg+Voc
+crveni	crveni+Pos+Adj+Masc+Pl+Nom
+crveni	crveni+Pos+Adj+Masc+Pl+Voc
+crveni	crven+Pos+Adj+Masc+Sg+Voc
+crveni	crven+Pos+Adj+Masc+Pl+Nom
+crveni	crven+Pos+Adj+Masc+Pl+Voc
+
+najlepša	Sup+lep+Comp+Adj+Neut+Sg+Gen
+najlepša	Sup+lep+Comp+Adj+Neut+Pl+Acc
+najlepša	Sup+lep+Comp+Adj+Neut+Pl+Nom
+najlepša	Sup+lep+Comp+Adj+Neut+Pl+Voc
+najlepša	Sup+lep+Comp+Adj+Fem+Sg+Voc
+najlepša	Sup+lep+Comp+Adj+Masc+Sg+Gen
+najlepša	Sup+lepi+Comp+Adj+Neut+Pl+Acc
+najlepša	Sup+lepi+Comp+Adj+Neut+Pl+Nom
+najlepša	Sup+lepi+Comp+Adj+Neut+Pl+Voc
+najlepša	Sup+lepi+Comp+Adj+Fem+Sg+Nom
+najlepša	Sup+lepi+Comp+Adj+Fem+Sg+Voc
+
+belji	beli+Comp+Adj+Masc+Sg+Acc
+belji	beli+Comp+Adj+Masc+Sg+Nom
+belji	beli+Comp+Adj+Masc+Sg+Voc
+belji	beli+Comp+Adj+Masc+Pl+Nom
+belji	beli+Comp+Adj+Masc+Pl+Voc
+belji	beo+Comp+Adj+Masc+Sg+Voc
+belji	beo+Comp+Adj+Masc+Pl+Nom
+belji	beo+Comp+Adj+Masc+Pl+Voc
+

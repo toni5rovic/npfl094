@@ -10,7 +10,7 @@ Charles University, Prague
 
 # 1. How to run
 
-TODO: Files with lexicon and phonological rules. Add a shell script that will invoke Foma (PCKIMMO) with these files and analyze all words in an input file; add a sample input file for the script. 
+Run `script.sh` file
 
 # 2. Lexical string format
 
