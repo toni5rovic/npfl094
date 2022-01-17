@@ -1,39 +1,23 @@
-Multichar_Symbols +Adj +Masc +Fem +Neut +Sg +Pl +Nom +Gen +Dat +Acc +Voc +Loc +Ins Sup+ +Pos +Comp @P.SUP.ON@ @D.SUP@
+Multichar_Symbols +Adj +Masc +Fem +Neut +Sg +Pl +Nom +Gen +Dat +Acc +Voc +Loc +Ins Sup+ +Pos +Comp @P.SUP.ON@ @D.SUP@ @P.NEG.ON@ Neg+
 
 ##############################################
 LEXICON Root
 
 Adj;
 AdjSup;
+AdjNeg;
+
+##############################################
+LEXICON AdjNeg
+
+@P.NEG.ON@Neg+:@P.NEG.ON@ne Adj;
 
 ##############################################
 LEXICON AdjSup
 
 @P.SUP.ON@Sup+:@P.SUP.ON@naj Adj;
+@P.SUP.ON@Sup+:@P.SUP.ON@naj AdjNeg;
 
-##############################################
-LEXICON Adj
-
-lep:lep             AdjIndefiniteComparative_SH;
-lepi:lep            AdjDefiniteComparative_SH;
-
-beo:bel             AdjIndefiniteComparative_J;
-beli:bel            AdjDefiniteComparative_J;
-
-lak:lak             AdjIndefiniteComparative_SH;
-laki:lak            AdjDefiniteComparative_SH;
-
-crven:crven         AdjIndefiniteComparative_IJ;
-crveni:crven        AdjDefiniteComparative_IJ;
-
-mlad:mlad           AdjIndefiniteComparative_J;
-mladi:mlad          AdjDefiniteComparative_J;
-
-nemački:nemačk      AdjDefinite;
-češki:češk          AdjDefinite;
-srpski:srpsk        AdjDefinite;
-malteški:maltešk    AdjDefinite;
-sovjetski:sovjetsk  AdjDefinite;
 
 ##############################################
 LEXICON AdjDefiniteComparative_IJ
@@ -166,3 +150,102 @@ LEXICON AdjDefinite
 +Adj+Neut+Pl+Voc:^a  #;
 +Adj+Neut+Pl+Ins:^im #;
 +Adj+Neut+Pl+Loc:^im #;
+
+##############################################
+LEXICON Adj
+
+lep                 AdjIndefiniteComparative_SH;
+lepi:lep            AdjDefiniteComparative_SH;
+Neg+lep:ružn        AdjDefiniteComparative_IJ;
+
+beo:bel             AdjIndefiniteComparative_J;
+beli:bel            AdjDefiniteComparative_J;
+
+lak                 AdjIndefiniteComparative_SH;
+laki:lak            AdjDefiniteComparative_SH;
+
+mek                 AdjIndefiniteComparative_SH;
+meki:mek            AdjDefiniteComparative_SH;
+
+crven               AdjIndefiniteComparative_IJ;
+crveni:crven        AdjDefiniteComparative_IJ;
+
+mlad                AdjIndefiniteComparative_J;
+mladi:mlad          AdjDefiniteComparative_J;
+
+rani:ran            AdjDefiniteComparative_IJ;
+kasni:kasn          AdjDefiniteComparative_IJ;
+# teški IRREGULAR
+
+nemački:nemačk      AdjDefinite;
+češki:češk          AdjDefinite;
+srpski:srpsk        AdjDefinite;
+malteški:maltešk    AdjDefinite;
+sovjetski:sovjetsk  AdjDefinite;
+španski:špansk      AdjDefinite;
+britanski:britansk  AdjDefinite;
+albanski:albansk    AdjDefinite;
+makedonski:makedonsk AdjDefinite;
+slovenski:slovensk  AdjDefinite;
+slovenački:slovenačk AdjDefinite;
+letonski:letonsk    AdjDefinite;
+slovački:slovačk    AdjDefinite;
+finansijski:finansijsk AdjDefinite;
+svetski:svetsk      AdjDefinite;
+romski:romsk        AdjDefinite;
+mađarski:mađarsk    AdjDefinite;
+beogradski:beogradsk AdjDefinite;
+istorijski:istorijsk AdjDefinite;
+diplomatski:diplomatsk AdjDefinite;
+kurdski:kurdsk      AdjDefinite;
+filmski:filmsk      AdjDefinite;
+balkanski:balkansk  AdjDefinite;
+irski:irsk          AdjDefinite;
+portugalski:portugalsk  AdjDefinite;
+populistički:populističk    AdjDefinite;
+železničk:železničk AdjDefinite;
+etnički:etničk      AdjDefinite;
+etički:etičk        AdjDefinite;
+lingvistički:lingvističk    AdjDefinite;
+
+aktivan             AdjIndefiniteComparative_IJ;
+važan               AdjIndefiniteComparative_IJ;
+urgentan            AdjIndefiniteComparative_IJ;
+transparentan       AdjIndefiniteComparative_IJ;
+slobodan            AdjIndefiniteComparative_IJ;
+# težak - IRREGULAR
+verovatan           AdjIndefiniteComparative_IJ;
+važan               AdjIndefiniteComparative_IJ;
+svestran            AdjIndefiniteComparative_IJ;
+bezbedan            AdjIndefiniteComparative_IJ;
+kompleksan          AdjIndefiniteComparative_IJ;
+moćan               AdjIndefiniteComparative_IJ;
+beskompromisan      AdjIndefiniteComparative_IJ;
+zadovoljan          AdjIndefiniteComparative_IJ;
+konkurentan         AdjIndefiniteComparative_IJ;
+siguran             AdjIndefiniteComparative_IJ;
+snažan              AdjIndefiniteComparative_IJ;
+efikasan            AdjIndefiniteComparative_IJ;
+uticajan            AdjIndefiniteComparative_IJ;
+ozbiljan            AdjIndefiniteComparative_IJ;
+pozitivan           AdjIndefiniteComparative_IJ;
+negativan           AdjIndefiniteComparative_IJ;
+opasan              AdjIndefiniteComparative_IJ;
+iskusan             AdjIndefiniteComparative_IJ;
+značajan            AdjIndefiniteComparative_IJ;
+rasprostranjen      AdjIndefiniteComparative_IJ;
+striktan            AdjIndefiniteComparative_IJ;
+očigledan           AdjIndefiniteComparative_IJ;
+potpun              AdjIndefiniteComparative_IJ;
+tačan               AdjIndefiniteComparative_IJ;
+izražen             AdjIndefiniteComparative_IJ;
+siromašan           AdjIndefiniteComparative_IJ;
+konkretan           AdjIndefiniteComparative_IJ;
+jeftin              AdjIndefiniteComparative_IJ;
+precizan            AdjIndefiniteComparative_IJ;
+optimalan           AdjIndefiniteComparative_IJ;
+siguran             AdjIndefiniteComparative_IJ;
+rasprostranjen      AdjIndefiniteComparative_IJ;
+zainteresovan       AdjIndefiniteComparative_IJ;
+represivan          AdjIndefiniteComparative_IJ;
+optimističan        AdjIndefiniteComparative_IJ;
