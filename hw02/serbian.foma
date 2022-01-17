@@ -44,7 +44,7 @@ define Iotation [z "^" j] -> ž       ,,
 ################################################################
 # Fleeting A
 
-define FleetingA a -> 0;
+define FleetingA a -> 0 || Consonant _ Consonant "^";
 
 ################################################################
 # L to O
@@ -59,4 +59,4 @@ define Cleanup "^" -> 0 ;
 read lexc serbian.lexc
 define Lexicon;
 
-regex Lexicon .o. Iotation .o. LVocalization .o. Cleanup ;
+regex Lexicon .o. FleetingA .o. Iotation .o. LVocalization .o. Cleanup ;
