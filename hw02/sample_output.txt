@@ -22,12 +22,39 @@ najlepša	Sup+lepi+Comp+Adj+Neut+Pl+Voc
 najlepša	Sup+lepi+Comp+Adj+Fem+Sg+Nom
 najlepša	Sup+lepi+Comp+Adj+Fem+Sg+Voc
 
-belji	beli+Comp+Adj+Masc+Sg+Acc
-belji	beli+Comp+Adj+Masc+Sg+Nom
-belji	beli+Comp+Adj+Masc+Sg+Voc
-belji	beli+Comp+Adj+Masc+Pl+Nom
-belji	beli+Comp+Adj+Masc+Pl+Voc
-belji	beo+Comp+Adj+Masc+Sg+Voc
-belji	beo+Comp+Adj+Masc+Pl+Nom
-belji	beo+Comp+Adj+Masc+Pl+Voc
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Neut+Pl+Loc
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Neut+Pl+Dat
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Neut+Pl+Ins
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Neut+Sg+Ins
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Fem+Pl+Loc
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Fem+Pl+Dat
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Fem+Pl+Ins
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Masc+Pl+Loc
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Masc+Pl+Dat
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Masc+Pl+Ins
+najneverovatnijim	Sup+Neg+verovatan+Comp+Adj+Masc+Sg+Ins
+
+nevažan	Neg+važan+Pos+Adj+Masc+Sg+Acc
+nevažan	Neg+važan+Pos+Adj+Masc+Sg+Nom
+
+srpskom	srpski+Adj+Neut+Sg+Loc
+srpskom	srpski+Adj+Neut+Sg+Dat
+srpskom	srpski+Adj+Fem+Sg+Ins
+srpskom	srpski+Adj+Masc+Sg+Loc
+srpskom	srpski+Adj+Masc+Sg+Dat
+
+nemačkog	nemački+Adj+Neut+Sg+Gen
+nemačkog	nemački+Adj+Masc+Sg+Gen
+
+češkim	češki+Adj+Neut+Pl+Loc
+češkim	češki+Adj+Neut+Pl+Dat
+češkim	češki+Adj+Neut+Pl+Ins
+češkim	češki+Adj+Neut+Sg+Ins
+češkim	češki+Adj+Fem+Pl+Loc
+češkim	češki+Adj+Fem+Pl+Dat
+češkim	češki+Adj+Fem+Pl+Ins
+češkim	češki+Adj+Masc+Pl+Loc
+češkim	češki+Adj+Masc+Pl+Dat
+češkim	češki+Adj+Masc+Pl+Ins
+češkim	češki+Adj+Masc+Sg+Ins
 
